@@ -42,7 +42,7 @@ export default function Celebration() {
         </div>
 
         {/* SINGLE ANNIVERSARY CARD - Reduced padding and rounded corners */}
-        <div className="bg-white/5 border border-white/10 rounded-[2rem] p-6 backdrop-blur-xl shadow-2xl animate-in slide-in-from-bottom-10 duration-1000 w-full">
+        <div className="bg-white/5 border border-white/10 rounded-4xl p-6 backdrop-blur-xl shadow-2xl animate-in slide-in-from-bottom-10 duration-1000 w-full">
           
           <div className="flex items-center justify-between mb-4">
             <div className="flex items-center gap-2">
