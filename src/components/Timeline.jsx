@@ -19,7 +19,7 @@ import C3 from '../assets/c3.jpg';
 import C4 from '../assets/c4.jpg';
 import C5 from '../assets/c5.jpg';
 
-import D1 from '../assets/r4.jpg';
+import D1 from '../assets/r4.JPG';
 import D2 from '../assets/l4.JPG';
 import D3 from '../assets/d3.JPG';
 import D4 from '../assets/d4.JPG';
@@ -194,7 +194,7 @@ export default function Timeline() {
                 <div className="w-full md:w-5/12">
                   <div 
                     onClick={() => setSelectedItem(item)}
-                    className={`group cursor-pointer p-8 rounded-[2rem] bg-white border-b-4 ${item.color} shadow-xl shadow-rose-100 hover:shadow-rose-200 transition-all hover:-translate-y-2 relative overflow-hidden`}
+                    className={`group cursor-pointer p-8 rounded-4xl bg-white border-b-4 ${item.color} shadow-xl shadow-rose-100 hover:shadow-rose-200 transition-all hover:-translate-y-2 relative overflow-hidden`}
                     data-aos={item.side === 'left' ? 'fade-right' : 'fade-left'}
                   >
                     {/* Decorative Icon: 100% Opacity & Side Aligned */}
@@ -244,11 +244,11 @@ export default function Timeline() {
               handleClose();
             }
           }}
-          className="fixed inset-0 z-[100] flex items-center justify-center p-4 md:p-10 bg-rose-900/60 backdrop-blur-md animate-in fade-in duration-300 cursor-pointer"
+          className="fixed inset-0 z-100 flex items-center justify-center p-4 md:p-10 bg-rose-900/60 backdrop-blur-md animate-in fade-in duration-300 cursor-pointer"
         >
           <div 
             // 2. Add 'cursor-default' here so the mouse doesn't look like a hand when over the card
-            className="bg-white rounded-[2rem] w-full max-w-5xl flex flex-col md:flex-row relative shadow-2xl overflow-hidden max-h-[90vh] cursor-default"
+            className="bg-white rounded-4xl w-full max-w-5xl flex flex-col md:flex-row relative shadow-2xl overflow-hidden max-h-[90vh] cursor-default"
             data-aos="zoom-in"
           >
             
@@ -307,7 +307,7 @@ export default function Timeline() {
                 className="mt-10 group bg-rose-900 text-white py-4 rounded-2xl font-bold flex items-center justify-center gap-3 hover:bg-rose-800 transition-all relative overflow-hidden shadow-lg shadow-rose-200 shrink-0"
               >
                 <span className="relative z-10">CLOSE</span>
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full duration-1000 transition-transform"></div>
+                <div className="absolute inset-0 bg-linear-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full duration-1000 transition-transform"></div>
               </button>
             </div>
           </div>

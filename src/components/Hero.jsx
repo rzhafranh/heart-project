@@ -6,7 +6,7 @@ import L1 from '../assets/l1.png';
 import L2 from '../assets/l2.png';
 import L3 from '../assets/l3.jpg';
 import L4 from '../assets/d3.JPG';
-import L5 from '../assets/l5.JPG';
+import L5 from '../assets/l5.jpg';
 
 import R1 from '../assets/d11.JPG';
 import R2 from '../assets/r2.jpg';
