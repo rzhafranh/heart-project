@@ -19,7 +19,7 @@ import C3 from '../assets/c3.jpg';
 import C4 from '../assets/c4.jpg';
 import C5 from '../assets/c5.jpg';
 
-import D1 from '../assets/r4.jpg';
+import D1 from '../assets/r4.JPG';
 import D2 from '../assets/l4.jpg';
 import D3 from '../assets/d3.jpg';
 import D4 from '../assets/d4.jpg';
