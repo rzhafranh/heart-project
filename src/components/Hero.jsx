@@ -2,18 +2,18 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ChevronRight, Heart, Sparkles, Mail, Star, Moon } from 'lucide-react';
 
-import L1 from '../assets/l1.jpg';
-import L2 from '../assets/l2.jpg';
+import L1 from '../assets/l1.png';
+import L2 from '../assets/l2.png';
 import L3 from '../assets/l3.jpg';
-import L4 from '../assets/d3.jpg';
+import L4 from '../assets/d3.JPG';
 import L5 from '../assets/l5.jpg';
 
-import R1 from '../assets/d11.jpg';
+import R1 from '../assets/d11.JPG';
 import R2 from '../assets/r2.jpg';
 import R3 from '../assets/r3.jpg';
-import R4 from '../assets/r4.jpg';
+import R4 from '../assets/r4.JPG';
 import R5 from '../assets/r5.jpg';
-import R6 from '../assets/r6.jpg';
+import R6 from '../assets/r6.JPG';
 import R7 from '../assets/r7.jpg';
 
 export default function Hero() {
