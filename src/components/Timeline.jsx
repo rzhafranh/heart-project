@@ -35,12 +35,13 @@ import D12 from '../assets/d12.jpg';
 import E1 from '../assets/l2.png';
 import E2 from '../assets/l3.jpg';
 import E3 from '../assets/l5.jpg';
-import E4 from '../assets/r5.jpg';
+import E4 from '../assets/r7.jpg';
 import E5 from '../assets/e5.jpg';
 import E6 from '../assets/e6.jpg';
 import E7 from '../assets/e7.jpg';
 import E8 from '../assets/e8.jpg';
-import E9 from '../assets/r7.jpg';
+import E9 from '../assets/r5.jpg';
+import E10 from '../assets/e10.jpg';
 
 export default function Timeline() {
   const navigate = useNavigate();
@@ -121,10 +122,10 @@ export default function Timeline() {
     },
     {
       id: 5,
-      year: "11-19 Jan 2026",
-      title: "A Week of 'Us'",
-      description: "From dinner hangouts and simple lunch dates to surprising friends—every moment together felt like home.",
-      images: [E1, E2, E3, E4, E5, E6, E7, E8, E9],
+      year: "11-28 Jan 2026",
+      title: "A Weeks of 'Us'",
+      description: "From dinner hangouts and lunch dates to surprising friends—every moment together felt like home.",
+      images: [E1, E2, E3, E4, E5, E6, E7, E8, E9, E10],
       color: "border-pink-500",
       bg: "bg-pink-500",
       icon: <Heart size={24} fill="currentColor" />,
