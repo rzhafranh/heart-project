@@ -41,7 +41,7 @@ import E6 from '../assets/e6.jpg';
 import E7 from '../assets/e7.jpg';
 import E8 from '../assets/e8.jpg';
 import E9 from '../assets/r5.jpg';
-import E10 from '../assets/e10.jpg';
+import E10 from '../assets/e10.jpeg';
 
 export default function Timeline() {
   const navigate = useNavigate();
