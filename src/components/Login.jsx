@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Heart, Sparkles, Mail, Star, Moon } from 'lucide-react';
+import { Heart, Sparkles, Mail, Star, Moon, Lock } from 'lucide-react';
 
 export default function Login({ onUnlock }) {
   const [passcode, setPasscode] = useState('');
@@ -65,11 +65,13 @@ export default function Login({ onUnlock }) {
             {/* Soft rings behind the heart */}
             <div className="absolute inset-0 bg-rose-200 rounded-full animate-ping opacity-20"></div>
             <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm border border-rose-50 relative z-10">
-              <Heart 
-                className={`transition-all duration-700 ${error ? 'text-rose-300 scale-90' : 'text-rose-500 scale-100 hover:scale-110'}`} 
-                fill={error ? "none" : "currentColor"} 
-                size={32} 
-              />
+<Lock 
+  className={`transition-all duration-700 ${
+    error ? 'text-rose-300 scale-90' : 'text-rose-500 scale-100 hover:scale-110'
+  }`} 
+  fill={error ? "none" : "rgba(244, 63, 94, 0)"} // Subtle fill for the "active" state
+  size={32} 
+/>
             </div>
           </div>
           
@@ -111,7 +113,7 @@ export default function Login({ onUnlock }) {
 
           {error && (
             <p className="text-center text-rose-400 mt-6 font-medium text-xs tracking-tight animate-bounce">
-              "Every heart has its own secret, try again?"
+              "Today is a day to remember"
             </p>
           )}
         </div>

@@ -113,7 +113,7 @@ export default function Timeline() {
     {
       id: 3,
       year: "21 Dec 2025",
-      title: "First Quality Time",
+      title: "Quality Time",
       description: "The first moments where time seemed to slow down. Just us, and a world of things to talk about.",
       images: [C1, C2, C3, C4, C5],
       color: "border-pink-500",
@@ -140,7 +140,7 @@ export default function Timeline() {
       images: [E1, E2, E3, E4, E5, E6, E7, E8, E9, E10],
       color: "border-pink-500",
       bg: "bg-pink-500",
-      icon: <Heart size={24} fill="currentColor" />,
+      icon: <Heart size={24} />,
       side: "left"
     }
   ];
@@ -261,7 +261,7 @@ export default function Timeline() {
         >
           <div 
             // 2. Add 'cursor-default' here so the mouse doesn't look like a hand when over the card
-            className="bg-white rounded-4xl w-full max-w-5xl flex flex-col md:flex-row relative shadow-2xl overflow-hidden max-h-[90vh] cursor-default"
+            className="bg-white rounded-4xl w-full max-w-5xl flex flex-col md:flex-row relative shadow-2xl overflow-y-auto max-h-[90vh] cursor-default"
             data-aos="zoom-in"
           >
             
@@ -305,7 +305,7 @@ export default function Timeline() {
             </div>
 
             {/* 2. RIGHT SIDE: CONTENT */}
-            <div className="w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center relative bg-white overflow-y-auto">
+            <div className="w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center relative bg-white overflow-visible">
               <button onClick={handleClose} className="absolute top-6 right-6 p-3 rounded-full hover:bg-rose-50 transition-colors z-20">
                 <X size={28} className="text-rose-300" />
               </button>
@@ -333,7 +333,7 @@ export default function Timeline() {
           onClick={() => navigate('/bridge')}
           className="group bg-rose-900 text-white px-16 py-5 rounded-2xl font-bold text-lg flex items-center justify-center gap-3 hover:bg-rose-800 active:scale-95 transition-all shadow-xl shadow-rose-200 relative overflow-hidden"
         >
-          <span className="relative z-10 uppercase tracking-widest">To the Next Chapter</span>
+          <span className="relative z-10 uppercase tracking-widest">begin the Next Chapter</span>
           <Sparkles size={22} className="relative z-10 group-hover:rotate-12 transition-transform" />
           <div className="absolute inset-0 bg-linear-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full duration-1000 transition-transform"></div>
         </button>
